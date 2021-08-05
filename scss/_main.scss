@@ -1,10 +1,39 @@
+// section1
+.banner {
+    background-image: url(../images/image2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1066px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.banner-text {
+    position: absolute;
+    width: 868px;
+    height: 594px;
+    margin-top: 172px;
+    margin-right: 43px;
+    margin-bottom: 167px;
+    margin-left: 182px;
 
-    .container {
-        .wrapper-box {
-            .image2 {
-                width: 1730px;
-                height: 1066px;
-            }
-        }
-    }
-
+}
+h1 {
+    max-width: 580px;
+    width: 100%;
+    font-size: 100px;
+    color: white;
+}
+h3 {
+    width: 100%;
+    font-size: 35px;
+    
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
